@@ -10,7 +10,10 @@ def getVowelCount(string):
              
     return dic     
 
+# 元音字母总和
+print sum(dic.values())
 
+# 单个元音字母次数
 dic= getVowelCount('Welcome to the Python world Are you ready')
 for key in dic:
     print key,dic[key]
