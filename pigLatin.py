@@ -1,3 +1,5 @@
+#coding:utf-8
+
 def pigLatin(centences):
     '''
     拉丁猪文字游戏
